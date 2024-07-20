@@ -1,0 +1,52 @@
+/* src/Result.css */
+.resultdiv {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  .resultdiv h2 {
+    color: #333;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+  }
+  
+  .resultdiv p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  .resultdiv table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+  
+  .resultdiv table, .resultdiv th, .resultdiv td {
+    border: 1px solid #ddd;
+  }
+  
+  .resultdiv th, .resultdiv td {
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .resultdiv th {
+    background-color: #f2f2f2;
+    color: #333;
+  }
+  
+  .resultdiv tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .resultdiv tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .resultdiv .emphasis {
+    font-weight: bold;
+    color: #333;
+  }
+  
